@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(28,28,28);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    background-color: #F0F8FF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 38%;
+    padding: 2rem;
+    border: 1px solid lightgray;
+    margin: 0px auto;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.geral {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.titulo {
+    color: rgb(28,28,28);
+    text-transform: uppercase;
+}
+
+.perfil img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.info {
+    color: rgb(28,28,28);
+    font-size: 20px;
+    padding: 0.8rem 1rem 0 1rem;
+    text-align: left;
+    float: right;
+    justify-content: center;
+    width: 100%;
+}
+.links {
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.links img {
+    height: 5rem;
+    margin: 0 0.5rem;
+}
+
+.botao {
+    position: relative;
+    border-color:#46a7f5;
+    background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+    box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;  
+    padding:6px 10px;
+    text-decoration:none;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao:hover {
+    background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
+.botao:active {
+    position:relative;
+    top:2px;
+}
+/*Tirando a marcação azul ao clicar no botão*/
+.botao:focus{
+    outline-style: none;
+}
+#lista {
+   position: absolute;
+   margin-left: 1rem;
+   text-transform: uppercase;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #fff;
+}
+ .txt {
+     color: white;
+     padding-top: 1rem;
+     padding-left: 0.5rem;
+} 
+#mouse {
+    height: 5rem;
+}
